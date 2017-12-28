@@ -19,7 +19,7 @@ var banner = ['/*!\n',
 
 var webBrowser = process.env.CHROME_BIN ? process.env.CHROME_BIN: 'google chrome'
 
-console.log('process.env = ', process.env);
+// console.log('process.env = ', process.env);
 // Compiles SCSS files from /scss into /css
 gulp.task('sass', function() {
   return gulp.src('scss/resume.scss')
