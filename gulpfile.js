@@ -6,6 +6,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
+var process = require('process');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -16,6 +17,9 @@ var banner = ['/*!\n',
   ''
 ].join('');
 
+var webBrowser = process.env.CHROME_BIN ? process.env.CHROME_BIN: 'google chrome'
+
+console.log('process.env = ', process.env);
 // Compiles SCSS files from /scss into /css
 gulp.task('sass', function() {
   return gulp.src('scss/resume.scss')
@@ -111,8 +115,10 @@ gulp.task('browserSync', function() {
     server: {
       baseDir: ''
     },
+    browser: webBrowser
   })
 })
+
 
 // Dev task with browserSync
 gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {

@@ -3,6 +3,9 @@
   "name": "startbootstrap-resume",
   "version": "4.0.0-beta.2",
   "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "scripts": {
+    "start": "gulp dev"
+  },
   "keywords": [
     "css",
     "sass",
