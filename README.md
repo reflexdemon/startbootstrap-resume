@@ -3,8 +3,9 @@
 [Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
 ## Preview
+![Resume Preview](https://github.com/startbootstrap-resume/img/raw/master/img/resume-preview.png "Resume Preview")
 
-[![Resume Preview](img/resume-preview.png)](https://reflexdemon.github.io/startbootstrap-resume/)
+[![Resume Preview](https://reflexdemon.github.io/startbootstrap-resume/img/resume-preview.png)](https://reflexdemon.github.io/startbootstrap-resume/)
 
 **[View Live Preview](https://reflexdemon.github.io/startbootstrap-resume/)**
 
