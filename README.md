@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Resume Preview](https://reflexdemon.github.io/startbootstrap-resume/img/resume-preview.png)](https://reflexdemon.github.io/startbootstrap-resume/)
+[![Resume Preview](img/resume-preview.png)](https://reflexdemon.github.io/startbootstrap-resume/)
 
 **[View Live Preview](https://reflexdemon.github.io/startbootstrap-resume/)**
 
