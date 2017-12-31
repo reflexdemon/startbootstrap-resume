@@ -9,6 +9,12 @@ git pull
 #Package
 gulp
 
+#Git commit and save after build
+git add .
+git commit -am "Publish new artifacts"
+git push
+
+
 # Delete Local Branch
 git branch -D gh-pages
 
