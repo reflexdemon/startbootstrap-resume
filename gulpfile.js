@@ -90,17 +90,16 @@ gulp.task('copy', function() {
       '!node_modules/font-awesome/*.json'
     ])
     .pipe(gulp.dest('vendor/font-awesome'))
-
   gulp.src([
-      'node_modules/devicons/**/*',
-      '!node_modules/devicons/*.json',
-      '!node_modules/devicons/*.md',
-      '!node_modules/devicons/!PNG',
-      '!node_modules/devicons/!PNG/**/*',
-      '!node_modules/devicons/!SVG',
-      '!node_modules/devicons/!SVG/**/*'
+      'node_modules/iconsfordevs/**/*',
+      '!node_modules/iconsfordevs/*.json',
+      '!node_modules/iconsfordevs/*.md',
+      '!node_modules/iconsfordevs/!PNG',
+      '!node_modules/iconsfordevs/!PNG/**/*',
+      '!node_modules/iconsfordevs/!SVG',
+      '!node_modules/iconsfordevs/!SVG/**/*'
     ])
-    .pipe(gulp.dest('vendor/devicons'))
+    .pipe(gulp.dest('vendor/iconsfordevs'))
 
   gulp.src(['node_modules/simple-line-icons/**/*', '!node_modules/simple-line-icons/*.json', '!node_modules/simple-line-icons/*.md'])
     .pipe(gulp.dest('vendor/simple-line-icons'))

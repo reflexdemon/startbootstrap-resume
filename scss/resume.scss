@@ -1,3 +1,5 @@
+@import "../vendor/iconsfordevs/css/iconsfordevs-vars.scss";
+
 // Core variables and mixins
 @import "variables.scss";
 @import "mixins.scss";
@@ -7,3 +9,17 @@
 @import "resume-item.scss";
 @import "bootstrap-overrides.scss";
 // Components
+
+@import "../vendor/iconsfordevs/css/iconsfordevs.scss";
+
+
+@font-face {
+    font-family: 'iconsfordevs';
+    src:  url('../fonts/iconsfordevs.eot?k42glo');
+    src:  url('../fonts/iconsfordevs.eot?k42glo#iefix') format('embedded-opentype'),
+      url('../fonts/iconsfordevs.ttf?k42glo') format('truetype'),
+      url('../fonts/iconsfordevs.woff?k42glo') format('woff'),
+      url('../fonts/iconsfordevs.svg?k42glo#iconsfordevs') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
