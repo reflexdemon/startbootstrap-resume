@@ -3,7 +3,7 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: $gray-600;
+  color: $body-color;
   background-color: $body-background-color;
 }
 @media (min-width: 992px) {
@@ -29,6 +29,15 @@ h1 {
   font-size: 6rem;
   line-height: 5.5rem;
 }
+
+// For mobile make the font look simple.
+@media (max-width: 450px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+
 
 h2 {
   font-size: 3.5rem;
@@ -61,3 +70,5 @@ h2 {
     }
   }
 }
+
+
