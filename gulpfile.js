@@ -113,8 +113,9 @@ gulp.task('default', gulp.series(['sass', 'minify-css', 'minify-js', 'copy']));
 // Configure the browserSync task
 gulp.task('browserSync', function() {
   browserSync.init({
-    server: {
-      baseDir: ''
+      watch: true,       // <-- Adding this line solved my reload problem
+      server: {
+      baseDir: './'
     },
     browser: webBrowser
   })
